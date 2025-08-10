@@ -9,5 +9,5 @@ if (num % 3 === 0 && num % 5 === 0) {
 }  else if (num % 5 === 0) { // 5の倍数かどうかをチェック
     console.log("5の倍数です");
 } else {
-    console.log("num"); // 3の倍数でも5の倍数でもない場合
+    console.log(num); // 3の倍数でも5の倍数でもない場合
 }
